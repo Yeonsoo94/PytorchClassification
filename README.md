@@ -10,7 +10,7 @@ Please follow the instructions given below for setting up the environment
 
 Following are the packages and libraries required for running the model
 
-Install these packages with requirements.txt
+Install these packages with [requirements.txt](#installing-the-packages)
 
 ```
 numpy >= 1.16.3
@@ -53,6 +53,7 @@ You can use the command pip freeze to see all installed software within a virtua
 pip3 freeze
 ```
 ## Folder Structure
+
 
 ```
 PytorchClassification/
@@ -196,3 +197,4 @@ python3 test.py -r saved/path_to/best_model.pth
 
 }
 ```
+
