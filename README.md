@@ -62,6 +62,7 @@ PytorchClassification/
 │
 ├── config/
 │   ├── alexnet_config.json -> config file for training the model using alexnet
+│   ├── inceptionV3.json -> config file for training the model using inceptionV3
 │   └── vgg_config.json -> config file for training the model using vgg19
 │
 ├── base/ - abstract base classes
