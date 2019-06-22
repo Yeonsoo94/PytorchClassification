@@ -10,6 +10,8 @@ Please follow the instructions given below for setting up the environment
 
 Following are the packages and libraries required for running the model
 
+* Packages
+
 Install these packages with [requirements.txt](#installing-the-packages)
 
 ```
@@ -20,6 +22,21 @@ scikit-learn >= 0.21.1
 torch >= 1.1.0
 torchvision >= 0.3.0
 ```
+
+
+* CIFAR-10 Dataset
+
+Downloaded and extracted to /data folder
+
+```
+wget -c https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+
+tar -xvzf cifar-10-python.tar.gz
+```
+
+
+Download [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)
+
 
 ### Setting up the environment (Optional)
 
@@ -52,6 +69,7 @@ You can use the command pip freeze to see all installed software within a virtua
 ```
 pip3 freeze
 ```
+    
 ## Folder Structure
 
 
