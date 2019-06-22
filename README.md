@@ -26,7 +26,7 @@ torchvision >= 0.3.0
 
 * CIFAR-10 Dataset
 
-Downloaded and extracted to /data folder
+Download and extract to /data folder
 
 ```
 wget -c https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
